@@ -1,15 +1,15 @@
-const n = 3;
-if(n%2 == 0){
-    if(n >= 2 && n <= 5){
+const N= 3;
+if(N%2 == 0){
+    if(N>= 2 && N<= 5){
         console.log('Not Weird');
     }
-    else if(n >= 6 && n <= 20){
+    else if(N>= 6 && N<= 20){
         console.log('Weird');
     }
-    else if(n > 20){
+    else if(N> 20){
         console.log('Not Weird');
     }    
 }
-else if(n %2 != 0){
+else if(N%2 != 0){
         console.log('Weird');
-    }
+}
